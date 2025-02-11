@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT Students Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .header {
+            background-color: #f1bf94;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+        }
+        .header li{
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+            margin-top: 14px;
+            margin-right: 700px;
+          
+        }
+        .header a{
+            color: #d26200;
+            margin-top: 14px;
+            
+        }
+        .header input{
+            height: 30px;
+            margin-top: 25px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .search-box {
+            float: right;
+        }
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .students {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .student-card {
+            padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #F4D7A3;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+       .banner{
+        background-color: #d26200;
+        margin: 0;
+       }
+       .banner img{
+        margin-top: 20px;
+        height: 700px;
+        margin-bottom: 50px;
+       }
+       .students img{
+        justify-content: center;
+        width: 250px;
+       }
+       .students{
+        margin-left: 150px;
+       }
+       .button-container button{
+        background-color: #f4933e;
+        color: aliceblue;
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/conFusion/img/1.jpg" alt="FPT University Logo" width="150">
+        <ul>
+            <li>
+                <a href="">Trang chủ</a>
+                <a href="">Ngành học</a>
+                <a href="">Tuyển sịnhsịnh</a>
+                <a href="">Sinh viênviên</a>
+
+            </li>
+        </ul>
+       
+            <input type="text" class="search-box" placeholder="Search...">
+   
+    </div>
+    
+    <div class="banner">
+        <img src="/conFusion/img/2.jpg" alt="Students" width="80%">
+    </div>
+    
+    <div class="container students">
+        <h3>Students Detail</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="student-card">
+                    <img src="/conFusion/img/3.jpg" alt="Student">
+                    <p><strong>Nguyễn Hữu Quốc Bảo</strong></p>
+                    <p>ID: DE160102</p>
+                    <p>Đà Nẵng</p>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="absent"> Vắng mặt
+                    </label>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="present"> Có mặt
+                    </label>
+                    <div class="button-container">
+                        <button class="btn-submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="student-card">
+                    <img src="/conFusion/img/3.jpg" alt="Student">
+                    <p><strong>Chung Văn Thiên</strong></p>
+                    <p>ID: DE160377</p>
+                    <p>Quảng Nam</p>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="absent"> Vắng mặt
+                    </label>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="present"> Có mặt
+                    </label>
+
+                    <div class="button-container">
+                        <button class="btn-submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="student-card">
+                    <img src="/conFusion/img/3.jpg" alt="Student">
+                    <p><strong>Đỗ Nguyên Phúc</strong></p>
+                    <p>ID: DE160547</p>
+                    <p>Quảng Nam</p>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="absent"> Vắng mặt
+                    </label>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="present"> Có mặt
+                    </label>
+                    <div class="button-container">
+                        <button class="btn-submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="student-card">
+                    <img src="/conFusion/img/3.jpg" alt="Student">
+                    <p><strong>Lê Hoàng Minh</strong></p>
+                    <p>ID: DE170049</p>
+                    <p>Đà Nẵng</p>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="absent"> Vắng mặt
+                    </label>
+                    <label>
+                        <input type="radio" name="status_DE160102" value="present"> Có mặt
+                    </label>
+                   
+                    <div class="button-container">
+                        <button class="btn-submit">Submit</button>
+                    </div>
+
+</div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Our Address: 123 Main Street, City, Vietnam</p>
+        <p>© Copyright 2023</p>
+    </div>
+</body>
+</html>

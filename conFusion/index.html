@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Boxes Layout</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .box {
+            height: 80px; /* Độ cao của ô */
+            background-color: #d2d3d4; /* Màu nền */
+            border: 1.7px solid #8c8a8a; /* Viền */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem; /* Kích thước chữ */
+            /* Không có khoảng cách giữa các ô */
+        }
+        .h1{
+            background-color: rgb(202, 187, 187) ;
+            justify-items: center;
+            margin-top: 30px;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid mt-5"> <!-- Sử dụng container-fluid -->
+        <div class="row mb-0">
+            <div class="col-6 p-0">
+                <div class="box">First col</div>
+            </div>
+            <div class="col-6 p-0">
+                <div class="box">Second col</div>
+            </div>
+        </div>
+
+        <div class="row mb-00">
+            <div class="col-4 p-0">
+                <div class="box">col</div>
+            </div>
+            <div class="col-4 p-0">
+                <div class="box">col</div>
+            </div>
+            <div class="col-4 p-0">
+                <div class="box">col</div>
+            </div>
+        </div>
+
+        <div class="row mb-0">
+            <div class="col-3 p-0">
+                <div class="box">col</div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="box">col</div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="box">col</div>
+            </div>
+            <div class="col-3 p-0">
+                <div class="box">col</div>
+            </div>
+        </div>
+        <div class="h1"><h1>Created By ABC</h1></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
